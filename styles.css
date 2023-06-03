@@ -10,7 +10,7 @@ body{
     padding: 33px 0 70px;
 }
 .container ,
-.projects__wrapper,
+.project__wrapper,
 .container__black{
     padding-left: 125px;
     width: 1150px;
@@ -90,23 +90,22 @@ h2{
     color: #FFFFFF;
     background: #AD1818;
 }
-.img__projects{
-    margin-top: 30px;
-}
 h3{
     margin-top: 15px;
     font-size: 30px;
     line-height: 41px;
 }
-.detailed{
+.project:first-child{
+    margin-top: 0;
+}
+.project__link{
     display: block;
     padding-top: 15px;
     font-size: 20px;
     line-height: 27px;
     color: #AD1818;
 }
-.img__park,
-.img__lake{
+.project__img{
     margin-top: 90px;
 }
 .project__btn{
@@ -135,15 +134,11 @@ section{
 }
 .item__services{
     padding-top: 150px;
-    font-size: 18px;
-    line-height: 25px;
 }
-.planning:nth-child(2){
+.services__img:nth-child(2){
     margin-top: 34px;
 }
-.Design ,
-.copyright ,
-.Equipment{
+.services__img{
     margin-top: 60px;
 }
 
