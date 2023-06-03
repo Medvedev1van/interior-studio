@@ -82,6 +82,7 @@ h2{
     width: 1081px;
 }
 .services{
+    position: absolute;
     margin-top: 30px;
     display: block;
     text-align: center;
@@ -92,6 +93,12 @@ h2{
     border-radius: 5px;
     color: #FFFFFF;
     background: #AD1818;
+}
+.services:hover{
+    text-decoration: none;
+    color: #AD1818;
+    background-color: #FFFFFF;
+    border: 1px solid #ad1818;
 }
 h3{
     margin-top: 15px;
@@ -158,9 +165,3 @@ h3{
     width: 443px;
     
 }
-
-
-
-
-
-
