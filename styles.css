@@ -1,4 +1,6 @@
-body{
+body ,
+.box
+{
     margin: 0 auto;
     width: 1400px;
     letter-spacing: -0.03em;
@@ -16,7 +18,8 @@ body{
     width: 1150px;
     margin: 0;
 }
-.container__black{
+.container__black,
+.box_title{
     color: #FFFFFF;
 }
 .nav{
@@ -124,7 +127,7 @@ h3{
     color: #FFFFFF;
     background-color: #AD1818;
 }
-section{
+.services_wrapper{
     margin-top: 150px;
     display: block;
     width: 1400px;
@@ -141,6 +144,23 @@ section{
 .services__img{
     margin-top: 60px;
 }
+.box{
+    position: relative;
+    width: 1400px;
+    height: 717px;
+    background-image: url('./img/Rectangle 10.jpg');
+}
+.box_title{
+    position: absolute;
+    height: 82px;
+    left: 125px;
+    bottom: 60px;
+    width: 443px;
+    
+}
+
+
+
 
 
 
