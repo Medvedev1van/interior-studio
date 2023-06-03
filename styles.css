@@ -1,19 +1,23 @@
 body{
-    width: 100%;
+    margin: 0 auto;
+    width: 1400px;
     letter-spacing: -0.03em;
     font-family: 'Manrope', Courier, monospace;
     font-weight: 400;
+    background-color: #FFFFFF;
 }
 .header{ 
     padding: 33px 0 70px;
-    width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #FFFFFF;
 }
-.container{
+.container ,
+.projects__wrapper,
+.container__black{
+    padding-left: 125px;
     width: 1150px;
-    margin: 0 auto;
+    margin: 0;
+}
+.container__black{
+    color: #FFFFFF;
 }
 .nav{
     display: flex;
@@ -27,57 +31,121 @@ body{
 .menu-item{
     padding-right: 60px;
 }
+li:hover{
+    text-decoration: underline;
+    color:gray;
+
+}
 a{
    text-decoration: none;
    color:inherit;
-}
-li:hover {
-    text-decoration: underline;
-    color:gray;
-}   
+} 
 ul{
     margin: 0;
     padding: 0;
     list-style: none;
 }
 .team{
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
     width: 430px;
-    height: 81px;
-    padding: 379px 0 40px 40px;
     font-size: 20px;
     line-height: 27px;
     color: white;
+    
 }
-.company{ 
-    margin: 150px 0 30px;
+h2{ 
+    margin-top: 150px;
     font-size: 18px;
     line-height: 25px;
 }
 .heading{
+    margin-top: 68px;
     font-size: 60px;
     line-height: 60px;
-    margin-top: 68px;
     width: 972px;
 }
 .room{
+    position: relative;
     margin-top: 30px;
     height: 500px;
     background-image: url('./img/Room1.png');
 }
 .founded{
+    margin-top: 30px;
     font-size: 45px;
     line-height: 61px;
     width: 1081px;
 }
 .services{
+    margin-top: 30px;
     display: block;
     text-align: center;
     width: 255px;
     font-size: 20px;
     line-height: 67px;
     height: 67px;
-    margin-top: 30px;
     border-radius: 5px;
     color: #FFFFFF;
     background: #AD1818;
 }
+.img__projects{
+    margin-top: 30px;
+}
+h3{
+    margin-top: 15px;
+    font-size: 30px;
+    line-height: 41px;
+}
+.detailed{
+    display: block;
+    padding-top: 15px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #AD1818;
+}
+.img__park,
+.img__lake{
+    margin-top: 90px;
+}
+.project__btn{
+    margin-top: 90px;
+    display: block;
+    font-size: 30px;
+    line-height: 153px;
+    height: 153px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #ad1818;
+    color: #ad1818;
+}
+.project__btn:hover{
+    color: #FFFFFF;
+    background-color: #AD1818;
+}
+section{
+    margin-top: 150px;
+    display: block;
+    width: 1400px;
+    height: 1844px;
+    top: 3868px;
+    background: #121212;
+}
+.item__services{
+    padding-top: 150px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.planning:nth-child(2){
+    margin-top: 34px;
+}
+.Design ,
+.copyright ,
+.Equipment{
+    margin-top: 60px;
+}
+
+
+
