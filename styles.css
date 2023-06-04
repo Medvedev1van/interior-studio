@@ -34,7 +34,7 @@ body ,
 .menu-item{
     padding-right: 60px;
 }
-li:hover{
+.menu-link:hover{
     text-decoration: underline;
     color:gray;
 
@@ -82,7 +82,6 @@ h2{
     width: 1081px;
 }
 .services{
-    position: absolute;
     margin-top: 30px;
     display: block;
     text-align: center;
@@ -92,21 +91,26 @@ h2{
     height: 67px;
     border-radius: 5px;
     color: #FFFFFF;
+    border: 1px solid #ad1818;
     background: #AD1818;
 }
 .services:hover{
-    text-decoration: none;
     color: #AD1818;
-    background-color: #FFFFFF;
-    border: 1px solid #ad1818;
+    background-color: #FFFFFF; 
 }
 h3{
     margin-top: 15px;
     font-size: 30px;
     line-height: 41px;
 }
+.projects{
+    margin-top: 30px;
+}
+.project{
+    margin-top: 90px;
+}
 .project:first-child{
-    margin-top: 0;
+    margin: 0;
 }
 .project__link{
     display: block;
@@ -114,9 +118,6 @@ h3{
     font-size: 20px;
     line-height: 27px;
     color: #AD1818;
-}
-.project__img{
-    margin-top: 90px;
 }
 .project__btn{
     margin-top: 90px;
