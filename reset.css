@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	box-sizing: border-box;
 	line-height: 1;
 }
 ol, ul {
@@ -46,3 +47,4 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+html { scroll-behavior: smooth; }
