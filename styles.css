@@ -120,6 +120,7 @@ ul{
     background-color: #AD1818;
 }
 .sevices__description{
+    margin-top: 15px;
     font-size: 30px;
     line-height: 41px;
     color: #FFFFFF;
@@ -159,4 +160,36 @@ ul{
     width: 443px;
     color: #FFFFFF;
 }
+.contacts{
+    margin-top: 150px;
+}
+.contacts_title{
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+}
+.contacts__wrapper{
+    position: relative;
+}
+.contacts__title::before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    bottom: 12px;
+    background-image: url('./img/ic_outline-phone-iphone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.contacts__link{
+    display: block;
+    padding-top: 30px;
+    font-size: 60px;
+    line-height: 60px;
+}
+.contacts__link:hover{
+    color:gray;
+}
+
 
