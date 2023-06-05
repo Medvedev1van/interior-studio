@@ -2,7 +2,7 @@
     cursor: pointer;
 }
 .header{ 
-    padding: 33px 0 70px;
+    padding-top: 33px;
 } 
 .box_title{
     color: #FFFFFF;
@@ -20,7 +20,7 @@
     padding-right: 60px;
 }
 .menu-link:hover{
-    text-decoration: underline;
+    text-decoration: underline; 
     color:gray;
 }
 a{
@@ -79,11 +79,6 @@ ul{
     color: #AD1818;
     background-color: #FFFFFF; 
 }
-h3{
-    margin-top: 15px;
-    font-size: 30px;
-    line-height: 41px;
-}
 .project{
     margin: 150px 0;
 }
@@ -125,7 +120,14 @@ h3{
     background-color: #AD1818;
 }
 .sevices__description{
+    font-size: 30px;
+    line-height: 41px;
     color: #FFFFFF;
+}
+.project__title{
+    margin-top: 15px;
+    font-size: 30px;
+    line-height: 41px;
 }
 .item__services{
     padding-top: 150px;
@@ -143,14 +145,18 @@ h3{
     background-size: cover;
     background-position: 50%;
 }
-.box_wrapper{
+.box__wrapper{
     position: relative;
+    height: 717px;
 }
-.box_title{
+.box__title{
     position: absolute;
+    font-size: 30px;
+    line-height: 41px;
     height: 82px;
     left: 125px;
     bottom: 60px;
-    width: 443px; 
+    width: 443px;
+    color: #FFFFFF;
 }
 
