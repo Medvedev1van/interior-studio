@@ -1,27 +1,9 @@
-body ,
-.box
-{
-    margin: 0 auto;
-    width: 1400px;
-    letter-spacing: -0.03em;
-    font-family: 'Manrope', Courier, monospace;
-    font-weight: 400;
-    background-color: #FFFFFF;
-}
 .logo{
     cursor: pointer;
 }
 .header{ 
     padding: 33px 0 70px;
-}
-.container ,
-.project__wrapper,
-.container__black{
-    padding-left: 125px;
-    max-width: 1150px;
-    margin: 0;
-}
-.container__black,
+} 
 .box_title{
     color: #FFFFFF;
 }
@@ -50,28 +32,25 @@ ul{
     padding: 0;
     list-style: none;
 }
-.team{
+.welcom__description{
     position: absolute;
     left: 40px;
     bottom: 40px;
     width: 430px;
     font-size: 20px;
     line-height: 27px;
-    color: white;
-    
+    color: white;   
 }
-h2{ 
+.about{
     margin-top: 150px;
-    font-size: 18px;
-    line-height: 25px;
 }
-.heading{
+.welcom__title{
     margin-top: 68px;
     font-size: 60px;
     line-height: 60px;
     width: 972px;
 }
-.room{
+.welcome_wrapper{
     position: relative;
     margin-top: 30px;
     height: 500px;
@@ -83,7 +62,7 @@ h2{
     line-height: 61px;
     width: 1081px;
 }
-.services{
+.btn-services{
     margin-top: 30px;
     display: block;
     text-align: center;
@@ -96,7 +75,7 @@ h2{
     border: 1px solid #ad1818;
     background: #AD1818;
 }
-.services:hover{
+.btn-services:hover{
     color: #AD1818;
     background-color: #FFFFFF; 
 }
@@ -104,6 +83,15 @@ h3{
     margin-top: 15px;
     font-size: 30px;
     line-height: 41px;
+}
+.project{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.services{
+    padding-top: 150px;
+    display: block;
+    background: #121212;
 }
 .projects{
     margin-top: 30px;
@@ -137,13 +125,16 @@ h3{
     color: #FFFFFF;
     background-color: #AD1818;
 }
-.services_wrapper{
+/* .services_wrapper{
     margin-top: 150px;
     display: block;
     width: 1400px;
     height: 1844px;
     top: 3868px;
     background: #121212;
+} */
+.sevices__description{
+    color: #FFFFFF;
 }
 .item__services{
     padding-top: 150px;
@@ -167,6 +158,5 @@ h3{
     height: 82px;
     left: 125px;
     bottom: 60px;
-    width: 443px;
-    
+    width: 443px;  
 }
