@@ -8,6 +8,9 @@ body ,
     font-weight: 400;
     background-color: #FFFFFF;
 }
+.logo{
+    cursor: pointer;
+}
 .header{ 
     padding: 33px 0 70px;
 }
@@ -15,7 +18,7 @@ body ,
 .project__wrapper,
 .container__black{
     padding-left: 125px;
-    width: 1150px;
+    max-width: 1150px;
     margin: 0;
 }
 .container__black,
@@ -37,7 +40,6 @@ body ,
 .menu-link:hover{
     text-decoration: underline;
     color:gray;
-
 }
 a{
    text-decoration: none;
@@ -106,10 +108,10 @@ h3{
 .projects{
     margin-top: 30px;
 }
-.project{
+.project__adout{
     margin-top: 90px;
 }
-.project:first-child{
+.project__adout:first-child{
     margin: 0;
 }
 .project__link{
@@ -154,9 +156,11 @@ h3{
 }
 .box{
     position: relative;
-    width: 1400px;
     height: 717px;
     background-image: url('./img/Rectangle 10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
 }
 .box_title{
     position: absolute;
