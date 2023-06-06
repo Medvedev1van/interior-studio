@@ -20,7 +20,7 @@
     padding-right: 60px;
 }
 .menu-link:hover{
-    text-decoration: underline; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5); 
     color:gray;
 }
 a{
@@ -181,12 +181,13 @@ ul{
     
 }
 .contacts__link{
-    display: block;
+    display: inline-block;
     padding-top: 30px;
     font-size: 60px;
     line-height: 60px;
 }
 .contacts__link:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     color:gray;
 }
 
