@@ -50,13 +50,13 @@ ul{
     line-height: 60px;
     width: 972px;
 }
-.welcome_wrapper{
+.welcome__wrapper{
     position: relative;
     margin-top: 30px;
     height: 500px;
     background-image: url('./img/Room1.png');
 }
-.founded{
+.about__description{
     margin-top: 30px;
     font-size: 45px;
     line-height: 61px;
@@ -79,7 +79,7 @@ ul{
     color: #AD1818;
     background-color: #FFFFFF; 
 }
-.project{
+.projects{
     margin: 150px 0;
 }
 .services{
@@ -87,23 +87,23 @@ ul{
     display: block;
     background: #121212;
 }
-.projects{
+.projects__list{
     margin-top: 30px;
 }
-.project__adout{
+.projects__item{
     margin-top: 90px;
 }
-.project__adout:first-child{
+.projects__item:first-child{
     margin: 0;
 }
-.project__link{
+.projects__link{
     display: block;
     padding-top: 15px;
     font-size: 20px;
     line-height: 27px;
     color: #AD1818;
 }
-.project__btn{
+.projects__btn{
     margin-top: 90px;
     display: block;
     font-size: 30px;
@@ -115,7 +115,7 @@ ul{
     border: 1px solid #ad1818;
     color: #ad1818;
 }
-.project__btn:hover{
+.projects__btn:hover{
     color: #FFFFFF;
     background-color: #AD1818;
 }
@@ -125,7 +125,7 @@ ul{
     line-height: 41px;
     color: #FFFFFF;
 }
-.project__title{
+.projects__title{
     margin-top: 15px;
     font-size: 30px;
     line-height: 41px;
@@ -155,13 +155,15 @@ ul{
     font-size: 30px;
     line-height: 41px;
     height: 82px;
-    left: 125px;
     bottom: 60px;
     width: 443px;
     color: #FFFFFF;
 }
-.contacts{
+.projects_list{
     margin-top: 150px;
+}
+.contacts{
+    margin: 150px 0 ;
 }
 .contacts__title{
     display: block;
@@ -185,9 +187,12 @@ ul{
     padding-top: 30px;
     font-size: 60px;
     line-height: 60px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #FFFFFF
 }
 .contacts__link:hover{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+    border-color:  rgba(0, 0, 0, 0.5);
     color:gray;
 }
 
