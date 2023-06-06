@@ -174,11 +174,11 @@ ul{
     position: absolute;
     width: 24px;
     height: 24px;
-    bottom: 12px;
+    bottom: 37px;
     background-image: url('img/phone1.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50%;
+    
 }
 .contacts__link{
     display: block;
