@@ -194,5 +194,38 @@ ul{
     border-color:  rgba(0, 0, 0, 0.5);
     color:gray;
 }
-
-
+footer{
+    padding: 60px 0 30px 0;
+    height: 229px;
+    background: #121212;
+}
+.footer{
+    display: flex;
+}
+.footer__list{
+    display: flex;
+    margin: 0 auto;
+}
+.footer__item{
+    margin-right: 55px;
+    margin-bottom: 87px;
+}
+.footer__link{
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.footer__link:hover{
+    opacity: 0.5;
+}
+.footer__item:last-child {
+    margin-right: 0;
+}
+.footer__title{
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    opacity: 0.5;
+    color: #FFFFFF;
+}
