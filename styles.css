@@ -173,16 +173,20 @@ ul{
     line-height: 25px;
     position: relative;
 }
-.contacts__title::before{
-    content: "";
-    position: absolute;
+.phone::before{
+    content: '';
+    display: block;
+    margin-left: -5px;
+    margin-bottom: 12px;
     width: 24px;
     height: 24px;
-    bottom: 37px;
     background-image: url('img/phone1.png');
     background-size: cover;
     background-repeat: no-repeat;
-    
+}
+.contacts__title{
+    font-size: 18px;
+    line-height: 25px;
 }
 .contacts__link{
     display: inline-block;
