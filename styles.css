@@ -123,8 +123,8 @@
     margin-top: 15px;
     font-size: 30px;
     line-height: 41px;
-    color: #FFFFFF;
     letter-spacing: -0.8px;
+    color: #FFFFFF;
 }
 .projects__title{
     margin-top: 15px;
@@ -159,6 +159,7 @@
     height: 82px;
     bottom: 60px;
     width: 443px;
+    letter-spacing: -1px;
     color: #FFFFFF;
 }
 .projects_list{
@@ -193,8 +194,10 @@
     padding-top: 30px;
     font-size: 60px;
     line-height: 60px;
-    padding-bottom: 10px;
+    padding-bottom: 3px;
+    letter-spacing: -1px;
     border-bottom: 2px solid #FFFFFF
+    
 }
 .contacts__link:hover{
     opacity: 0.5;
@@ -220,7 +223,8 @@ footer{
 .footer__link{
     display: block;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 30px;
+    letter-spacing: -1px;
     color: #FFFFFF;
 }
 .footer__link:hover{
@@ -231,8 +235,9 @@ footer{
 }
 .footer__title{
     font-size: 20px;
-    line-height: 27px;
+    line-height: 24px;
     text-align: center;
     opacity: 0.5;
+    letter-spacing: -0.7px;
     color: #FFFFFF;
 }
