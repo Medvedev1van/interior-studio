@@ -1,6 +1,7 @@
-body
-{
-    margin: 0 auto;
+body{
+    min-width: 1400px;
+    margin: 0 ;
+    padding: 0 15px;
     letter-spacing: -0.03em;
     font-family: 'Manrope', Courier, monospace;
     font-weight: 400;
