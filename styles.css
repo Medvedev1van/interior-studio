@@ -18,6 +18,9 @@
 .menu__item{
     padding-right: 60px;
 }
+.menu__item:last-child {
+    padding-right: 0;
+}
 .menu__link:hover{
     border-bottom: 1px solid rgba(0, 0, 0, 0.5); 
     color:gray;
