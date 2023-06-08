@@ -26,14 +26,14 @@
     line-height: 25px;
 }
 .menu__link:hover{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5); 
-    color:gray;
+    border-bottom: 1px solid #121212;
+    opacity : 0.5;
 }
 .welcome__title{
     margin-top: 68px;
+    width: 972px;
     font-size: 60px;
     line-height: 63px;
-    width: 972px;
     letter-spacing: -1.8px;
 }
 .welcome__wrapper{
@@ -57,20 +57,20 @@
 }
 .about__description{
     margin-top: 30px;
+    width: 1081px;
     font-size: 45px;
     line-height: 61px;
-    width: 1081px;
     letter-spacing: -1.38px;
 }
 .btn-services{
-    margin-top: 25px;
     display: block;
-    text-align: center;
+    margin-top: 25px;
+    height: 67px;
     width: 255px;
     font-size: 20px;
     line-height: 67px;
-    height: 67px;
     border-radius: 5px;
+    text-align: center;
     color: #FFFFFF;
     border: 1px solid #ad1818;
     background: #AD1818;
@@ -104,11 +104,11 @@
     color: #AD1818;
 }
 .projects__btn{
-    margin-top: 90px;
     display: block;
+    margin-top: 90px;
+    height: 153px;
     font-size: 30px;
     line-height: 153px;
-    height: 153px;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
@@ -154,11 +154,11 @@
 }
 .box__title{
     position: absolute;
-    font-size: 30px;
-    line-height: 41px;
     height: 82px;
     bottom: 60px;
     width: 443px;
+    font-size: 30px;
+    line-height: 41px;
     letter-spacing: -1px;
     color: #FFFFFF;
 }
@@ -174,7 +174,11 @@
     line-height: 25px;
     position: relative;
 }
-.phone::before{
+.contacts__title{
+    font-size: 18px;
+    line-height: 25px;
+}
+.contacts__title::before{
     content: '';
     display: block;
     margin-left: -5px;
@@ -185,24 +189,19 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.contacts__title{
-    font-size: 18px;
-    line-height: 25px;
-}
 .contacts__link{
     display: inline-block;
     padding-top: 30px;
+    padding-bottom: 3px;
     font-size: 60px;
     line-height: 60px;
-    padding-bottom: 3px;
     letter-spacing: -1px;
     border-bottom: 2px solid #FFFFFF
     
 }
 .contacts__link:hover{
     opacity: 0.5;
-    border-color:  rgba(0, 0, 0, 0.5);
-    color:gray;
+    border-color: #121212;
 }
 footer{
     padding: 60px 0 30px 0;
@@ -217,8 +216,7 @@ footer{
     margin: 0 auto;
 }
 .footer__item{
-    margin-right: 55px;
-    margin-bottom: 87px;
+    margin: 0 55px 87px 0;
 }
 .footer__link{
     display: block;
@@ -233,7 +231,7 @@ footer{
 .footer__item:last-child {
     margin-right: 0;
 }
-.footer__title{
+.footer__text{
     font-size: 20px;
     line-height: 24px;
     text-align: center;
